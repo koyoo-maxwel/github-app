@@ -1,15 +1,7 @@
-<!-- <div class="row">
-  <div class="col-md-12">
-    <form>
-      <div class="form-group">
-        <input type="text" class="form-control" placeholder="Enter a Github username" name="username" [(ngModel)]="username" (keyup)="searchUser()">
-      </div>
-    </form>
-  </div>
-</div> -->
+<!doctype html>
 <app-github-search (onSearchUser)="searchUser($event)"></app-github-search>
 <div *ngIf="user">
-  <!-- user-card-info -->
+  <!-- user-info -->
   <div class="row">
     <div class="col-md-5 col-lg-4">
       <app-user-card [user]="user"></app-user-card>

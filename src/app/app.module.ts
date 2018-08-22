@@ -11,6 +11,7 @@ import { GithubService } from './github.service';
 import { UserCardComponent } from './user-card/user-card.component';
 import { RepoCardComponent } from './repo-card/repo-card.component';
 import { GithubSearchComponent } from './github-search/github-search.component';
+import { MaxwelComponent } from './maxwel/maxwel.component';
 
 @NgModule({
   declarations: [
@@ -19,7 +20,8 @@ import { GithubSearchComponent } from './github-search/github-search.component';
     AppHeaderComponent,
     UserCardComponent,
     RepoCardComponent,
-    GithubSearchComponent
+    GithubSearchComponent,
+    MaxwelComponent
   ],
   imports: [
     BrowserModule,

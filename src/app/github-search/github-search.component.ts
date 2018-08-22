@@ -6,7 +6,7 @@ import { Component, OnInit, Output, EventEmitter } from '@angular/core';
   styleUrls: ['./github-search.component.css']
 })
 export class GithubSearchComponent implements OnInit {
-  username: string = 'Lazhari';
+  username: string = 'koyoo-maxwel';
 
   @Output() onSearchUser = new EventEmitter<string>();
 
