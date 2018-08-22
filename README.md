@@ -18,10 +18,10 @@ Run ng serve for a dev server. Navigate to http://localhost:4200/. The app will 
 There are various forms of technologies.
 
 >1.Angular.
->Typescript.
->Bootstrap.
->CSS.
->HTML.
+>2Typescript.
+>3Bootstrap.
+>4CSS.
+>5HTML.
 
 #Known issues or bugs
 There are no known bugs or issues with the application. In case any are encountered, please contact me via github (nyagaG).
